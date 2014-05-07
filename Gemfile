@@ -2,7 +2,7 @@
 source "https://rubygems.org"
 
 # gem "rails"
-gem "rspec"
-gem "ci_reporter", :git => 'git://github.com/nicksieger/ci_reporter.git'
+gem "rspec", '> 2.0.0'
+gem 'ci_reporter', '~> 1.9.2'
 gem "simplecov"
 gem "simplecov-csv"
